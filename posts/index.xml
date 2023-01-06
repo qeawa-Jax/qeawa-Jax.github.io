@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title></title>
-        <link>http://qeawa-Jax.github.io/</link>
-        <description></description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</lastBuildDate>
-            <atom:link href="http://qeawa-Jax.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - </title>
+        <link>http://qeawa-Jax.github.io/posts/</link>
+        <description>All Posts | </description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</lastBuildDate><atom:link href="http://qeawa-Jax.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First</title>
     <link>http://qeawa-Jax.github.io/posts/first/</link>
     <pubDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</pubDate>

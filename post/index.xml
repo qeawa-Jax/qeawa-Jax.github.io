@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>/post/</link>
+    <link>http://qeawa-Jax.github.io/post/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 15:54:39 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 15:54:39 +0800</lastBuildDate><atom:link href="http://qeawa-Jax.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>个人介绍</title>
-      <link>/post/first/</link>
+      <link>http://qeawa-Jax.github.io/post/first/</link>
       <pubDate>Thu, 05 Jan 2023 15:54:39 +0800</pubDate>
       
-      <guid>/post/first/</guid>
+      <guid>http://qeawa-Jax.github.io/post/first/</guid>
       <description> 职业 后端软件开发 web开发 嵌入式开发 爱好 英雄联盟 111 222 333 444 555 </description>
     </item>
     
