@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - </title>
-        <link>http://qeawa-Jax.github.io/posts/</link>
+        <link>http://www.linux.cn/posts/</link>
         <description>All Posts | </description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</lastBuildDate><atom:link href="http://qeawa-Jax.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</lastBuildDate><atom:link href="http://www.linux.cn/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First</title>
-    <link>http://qeawa-Jax.github.io/posts/first/</link>
+    <link>http://www.linux.cn/posts/first/</link>
     <pubDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</pubDate>
     <author>黄红旭</author>
-    <guid>http://qeawa-Jax.github.io/posts/first/</guid>
+    <guid>http://www.linux.cn/posts/first/</guid>
     <description><![CDATA[我的第一篇博客 职业 爱好 特长 ]]></description>
 </item>
 </channel>
