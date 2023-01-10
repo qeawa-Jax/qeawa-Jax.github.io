@@ -1,7 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - </title>
-        <link>http://www.linux.cn/tags/</link>
+        <link>http://blog.hinux.cn/tags/</link>
         <description>Tags - Tag - </description>
-        <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.linux.cn/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</lastBuildDate><atom:link href="http://blog.hinux.cn/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>c&#43;&#43;</title>
+    <link>http://blog.hinux.cn/tags/c&#43;&#43;/</link>
+    <pubDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://blog.hinux.cn/tags/c&#43;&#43;/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>linux</title>
+    <link>http://blog.hinux.cn/tags/linux/</link>
+    <pubDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://blog.hinux.cn/tags/linux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
