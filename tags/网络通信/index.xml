@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>网络通信 - Tag - </title>
+        <link>/tags/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/</link>
+        <description>网络通信 - Tag - </description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 10 Jan 2023 17:03:00 &#43;0800</lastBuildDate><atom:link href="/tags/%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1/" rel="self" type="application/rss+xml" /><item>
+    <title>Libevent学习一</title>
+    <link>/articles/c&#43;&#43;/libevent_1/</link>
+    <pubDate>Tue, 10 Jan 2023 17:03:00 &#43;0800</pubDate>
+    <author>旭哥</author>
+    <guid>/articles/c&#43;&#43;/libevent_1/</guid>
+    <description><![CDATA[Libevent源码学习总结系列]]></description>
+</item>
+</channel>
+</rss>

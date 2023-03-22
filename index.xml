@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title></title>
-        <link>http://blog.hinux.cn/</link>
+        <link>/</link>
         <description></description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 06 Jan 2023 10:43:37 &#43;0800</lastBuildDate>
-            <atom:link href="http://blog.hinux.cn/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 20 Mar 2023 17:03:00 &#43;0800</lastBuildDate>
+            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

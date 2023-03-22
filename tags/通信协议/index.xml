@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>通信协议 - Tag - </title>
+        <link>/tags/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/</link>
+        <description>通信协议 - Tag - </description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 20 Mar 2023 10:43:37 &#43;0800</lastBuildDate><atom:link href="/tags/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/" rel="self" type="application/rss+xml" /><item>
+    <title>CAN与CAN FD</title>
+    <link>/articles/%E9%80%9A%E4%BF%A1/can%E4%B8%8Ecanfd/</link>
+    <pubDate>Mon, 20 Mar 2023 10:43:37 &#43;0800</pubDate>
+    <author>旭哥</author>
+    <guid>/articles/%E9%80%9A%E4%BF%A1/can%E4%B8%8Ecanfd/</guid>
+    <description><![CDATA[CAN与CAN FD的介绍]]></description>
+</item>
+</channel>
+</rss>

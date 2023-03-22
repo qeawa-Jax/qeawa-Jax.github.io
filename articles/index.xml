@@ -2,17 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on </title>
-    <link>http://blog.hinux.cn/articles/</link>
+    <link>/articles/</link>
     <description>Recent content in Articles on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Jan 2023 10:43:37 +0800</lastBuildDate><atom:link href="http://blog.hinux.cn/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Mar 2023 17:03:00 +0800</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的第一篇博客</title>
-      <link>http://blog.hinux.cn/articles/first/</link>
-      <pubDate>Fri, 06 Jan 2023 10:43:37 +0800</pubDate>
+      <title>C&#43;&#43;面试问题整理</title>
+      <link>/articles/c&#43;&#43;/c&#43;&#43;%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</link>
+      <pubDate>Mon, 20 Mar 2023 17:03:00 +0800</pubDate>
       
-      <guid>http://blog.hinux.cn/articles/first/</guid>
-      <description>个人介绍 职业 web后端开发 嵌入式软件开发 爱好 特长 本博客分享的内容 </description>
+      <guid>/articles/c&#43;&#43;/c&#43;&#43;%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAN与CAN FD</title>
+      <link>/articles/%E9%80%9A%E4%BF%A1/can%E4%B8%8Ecanfd/</link>
+      <pubDate>Mon, 20 Mar 2023 10:43:37 +0800</pubDate>
+      
+      <guid>/articles/%E9%80%9A%E4%BF%A1/can%E4%B8%8Ecanfd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Libevent学习一</title>
+      <link>/articles/c&#43;&#43;/libevent_1/</link>
+      <pubDate>Tue, 10 Jan 2023 17:03:00 +0800</pubDate>
+      
+      <guid>/articles/c&#43;&#43;/libevent_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>关于此博客</title>
+      <link>/articles/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/first/</guid>
+      <description></description>
     </item>
     
   </channel>
