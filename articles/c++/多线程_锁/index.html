@@ -4,36 +4,36 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Libevent学习一 - </title><meta name="Description" content="Libevent源码学习总结系列"><meta property="og:title" content="Libevent学习一" />
-<meta property="og:description" content="Libevent源码学习总结系列" />
+        <title>C&#43;&#43;多线程----mutex - </title><meta name="Description" content="C&#43;&#43;多线程之mutex"><meta property="og:title" content="C&#43;&#43;多线程----mutex" />
+<meta property="og:description" content="C&#43;&#43;多线程之mutex" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/articles/c&#43;&#43;/libevent_1/" /><meta property="article:section" content="articles" />
-<meta property="article:published_time" content="2023-01-10T17:03:00+08:00" />
-<meta property="article:modified_time" content="2023-01-10T17:03:00+08:00" /><meta property="og:site_name" content="blog.hinux.cn" />
+<meta property="og:url" content="/articles/c&#43;&#43;/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E9%94%81/" /><meta property="article:section" content="articles" />
+<meta property="article:published_time" content="2023-03-27T15:41:00+08:00" />
+<meta property="article:modified_time" content="2023-03-27T15:41:00+08:00" /><meta property="og:site_name" content="blog.hinux.cn" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Libevent学习一"/>
-<meta name="twitter:description" content="Libevent源码学习总结系列"/>
+<meta name="twitter:title" content="C&#43;&#43;多线程----mutex"/>
+<meta name="twitter:description" content="C&#43;&#43;多线程之mutex"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/articles/c&#43;&#43;/libevent_1/" /><link rel="prev" href="/articles/first/" /><link rel="next" href="/articles/can%E9%80%9A%E4%BF%A1/can%E4%B8%8Ecanfd/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="/articles/c&#43;&#43;/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E9%94%81/" /><link rel="prev" href="/articles/c&#43;&#43;/c&#43;&#43;%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/" /><link rel="next" href="/articles/can%E9%80%9A%E4%BF%A1/nxp-rt1064-can%E9%A9%B1%E5%8A%A8%E5%88%86%E6%9E%90/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Libevent学习一",
+        "headline": "C++多线程----mutex",
         "inLanguage": "",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "\/articles\/c\u002b\u002b\/libevent_1\/"
-        },"image": ["images\/icon.jpg"],"genre": "articles","keywords": "c\u002b\u002b, 网络通信","wordcount":  3 ,
-        "url": "\/articles\/c\u002b\u002b\/libevent_1\/","datePublished": "2023-01-10T17:03:00+08:00","dateModified": "2023-01-10T17:03:00+08:00","publisher": {
+            "@id": "\/articles\/c\u002b\u002b\/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E9%94%81\/"
+        },"image": ["images\/icon.jpg"],"genre": "articles","keywords": "c\u002b\u002b","wordcount":  5 ,
+        "url": "\/articles\/c\u002b\u002b\/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E9%94%81\/","datePublished": "2023-03-27T15:41:00+08:00","dateModified": "2023-03-27T15:41:00+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
                 "name": "旭哥"
-            },"description": "Libevent源码学习总结系列"
+            },"description": "C++多线程之mutex"
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -78,9 +78,7 @@
             </a></div>
     </div>
 </header><main class="main">
-                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Libevent学习一</h1><div class="content" id="content"><h3 id="libevent介绍">Libevent介绍</h3>
-<p>-特点
--用处</p></div></div></div>
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">C&#43;&#43;多线程----mutex</h1><div class="content" id="content"><h3 id="hahahugoshortcode-s0-hbhb"><div id="id-1">Mutex.lock( ) 和 Mutex.trylock( )的区别</div></h3></div></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">友链</div><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.109.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
@@ -92,5 +90,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/css/cb8625.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
